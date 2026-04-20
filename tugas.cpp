@@ -34,5 +34,12 @@ int main() {
     nonElektronik.kategori = "Non Elektronik";
     nonElektronik.tanggalProduksi = "2023-12-01";
 
-    
+    // Menampilkan data
+    cout << "Data Barang Elektronik:" << endl;
+    elektronik.tampilkanData();
+
+    cout << "Data Barang Non Elektronik:" << endl;
+    nonElektronik.tampilkanData();
+
+    return 0;
 }
