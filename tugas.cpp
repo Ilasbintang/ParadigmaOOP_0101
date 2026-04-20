@@ -19,3 +19,14 @@ public:
     }
 };
 
+int main() {
+    // Membuat object elektronik
+    Barang elektronik;
+    elektronik.nama = "Laptop";
+    elektronik.jumlah = 10;
+    elektronik.kategori = "Elektronik";
+    elektronik.tanggalProduksi = "2024-01-10";
+
+   
+    
+}
