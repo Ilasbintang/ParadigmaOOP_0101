@@ -27,6 +27,12 @@ int main() {
     elektronik.kategori = "Elektronik";
     elektronik.tanggalProduksi = "2024-01-10";
 
-   
+    // Membuat object nonElektronik
+    Barang nonElektronik;
+    nonElektronik.nama = "Meja";
+    nonElektronik.jumlah = 5;
+    nonElektronik.kategori = "Non Elektronik";
+    nonElektronik.tanggalProduksi = "2023-12-01";
+
     
 }
